@@ -1,3 +1,4 @@
+# Lab Week 1 - VSCode, Markdown, & Git (Part 1)
 If you have already submitted to Canvas before this update, we will transfer it over to Gradescope for you so you do not have to resubmit.
 
 This is to be completed as a solo assignment.
