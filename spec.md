@@ -5,7 +5,7 @@ This is to be completed as a solo assignment.
 
 For your first lab assignment, you will be creating a GitHub User Page about yourself for your GitHub account. The purpose is to give an introduction of who you are as a programmer, who you are as a person, and any other interesting things you'd like to share with the kind of person who might be taking a look at your profile (think potential employers, open source devs, generally just the kinds of people who would be looking at the source code for a project you made).
 
-# Part 1. Installing Visual Studio Code and Extensions
+## Part 1. Installing Visual Studio Code and Extensions
 
 We'll be supporting VSCode as the main IDE for this class. One of the strengths of VSCode is the ecosystem of extensions that helps increase your efficiency as a developer and allows you to customize the experience of your IDE.
 
@@ -18,13 +18,13 @@ We'll be supporting VSCode as the main IDE for this class. One of the strengths 
 
 Also feel free to explore and install any other extension that suits your needs and optimize your experience!
 
-# Part 2. (Re)Familiarizing Ourselves with Git
+## Part 2. (Re)Familiarizing Ourselves with Git
 
 Throughout the project, you will use git to access and modify your repository on GitHub. To ensure everyone has a working knowledge of git, you will use it to modify your repository using both the command prompt and the VS Code source control UI. Install Git on your system [here](https://git-scm.com/downloads) if you do not have it already.
 
 First, create the GitHub repository for your GitHub Pages project. Make sure the repository is public and includes a "[README.md](http://readme.md/)" file.
 
-## **Command Line**
+### **Command Line**
 
 For the following steps, perform each step using the command line unless otherwise stated. If anyone is fuzzy on git commands and their uses, [this is a great resource](http://guides.beanstalkapp.com/version-control/common-git-commands.html) describing common commands.
 
@@ -37,13 +37,13 @@ For the following steps, perform each step using the command line unless otherwi
 
 Take a screenshot of these commands being performed as a deliverable.
 
-## **VSCode UI**
+### **VSCode UI**
 
 Secondly, we will go through a similar process in VS Code, as you may find it easier to use its built-in version control UI. For an overview of how to use VS Code version control, consult the [documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support).
 
 Open the repository in VS Code, create a new branch and switch to it. In the README file, add a line about your favorite programming language.
 
-## .gitignore
+### .gitignore
 
 Create a file titled PRIVATE.txt. In this file, place your name and PID. Once this is done, create a **.gitignore** file in the root of your repository and add the path to this PRIVATE.txt file (just the name of the file if PRIVATE.txt is in the root). The idea is that you want to include any files you want git to ignore in the .gitignore file (files such as node_modules, .DS_Store, etc...). Read more about .gitignore [here](https://git-scm.com/docs/gitignore).
 
@@ -51,7 +51,7 @@ Under the `Source Control` tab, stage the changes and add an appropriate commit 
 
 **Before committing** and pushing the change, take a screenshot of the staged commit, commit message, and current branch as a deliverable.
 
-# Part 3. Using Markdown
+## Part 3. Using Markdown
 
 Markdown is a commonly used markup language for formatting plain text. You can learn more about its uses and syntax [here](https://www.markdownguide.org/getting-started/).
 
@@ -80,7 +80,7 @@ If you find yourself wanting to go above and beyond, here are some things you ca
 
 You can read about setting up a theme [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) and creating a custom domain [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
-# Submit to Gradescope
+## Submit to Gradescope
 
 - **Link to your GitHub Repository**. Inside your repo, make sure you have:
     - A folder called **screenshots** in your root directory with
